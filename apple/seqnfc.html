@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Sequential NFC</title>
+<link rel="stylesheet" href="/css/simplecss-min.css">
+	</head>
+	<body>
+		<p><img src="seq_nfc.png" style=" display: block; margin-left: auto; margin-right: auto; width: 50%;"></p>
+		<h1 id="sequential-nfc">Sequential NFC</h1>
+
+		<h2 id="summary">Summary</h2>
+		<p>Sequencial NFC is an <a href="https://apps.apple.com/be/app/sequential-nfc/id6446227734">iPhone app</a> for writing NDEF NFC tags with an internet address that can contain a counter. This counter will be automatically incremented between writes.</p>
+		<p>This is useful when you use NFC tags to organize items. The author uses it to organize his pepper plants in combination with the <a href="https://www.seedsio.com/g/andete">seedsio platform</a>.</p>
+
+		<h2 id="nfc-tags">NFC Tags</h2>
+		<p>You need NDEF NFC tags that are compatible with your iPhone. The ones I bought were called Round Rewritable NFC 215 Cards and work great and are in weatherproof PVC plastic.</p>
+		<p><img src="https://res.craft.do/user/full/001a5987-a82d-789d-bfa0-939cda7a4e1d/doc/2EF5E54E-B99C-423E-A0E7-A8086767B755/734ABE02-6940-4590-A7D8-A55496FC50EB_2/te3hWBq4EsV9dAHM3sQI5UyJwI0KI0OUt0xT4Yidpz0z/Image.tiff" alt="Image.tiff" style="width: 50%"></p>
+
+		<h2 id="installation">Installation</h2>
+		<p><a href="https://apps.apple.com/be/app/sequential-nfc/id6446227734">Click on this link</a>. Alternatively go the the App Store on your iPhone and search for <em>sequential nfc</em>. It will show the app, probably below another advertised app. Install it like any other app.</p>
+
+		<h2 id="configuration">Configuration</h2>
+		<p>Click on the Setup icon at the bottom of the app. You can have multiple patterns. The app comes installed with two patterns by default: <strong>SeedsIO User</strong> and <strong>SeedsIO</strong>.</p>
+		<p><strong>SeedsIO</strong> installs an URI that points to the plant for the user you are logged in with on the SeedsIO platform. This means these URI&#39;s probably only work for yourself.</p>
+		<p><strong>SeedsIO User</strong> installs an URI that points to the plant for the username you configure. This means the  URI works for everybody.</p>
+		<p>You can easily copy a pattern to make a new one for any other website or platform.</p>
+		<p>Edit the User name, index and pattern and see in the green Calculated URI field what the result will be. If the result is not a valid URI, this field will turn to red.</p>
+
+		<h2 id="usage">Usage</h2>
+		<p>Switch back to the Read/Write tab by pressing the button at the bottom.</p>
+		<p>Press the Write button. Hold the tag near the iPhone, the NFC is located near the cameras at the back of the phone. If things go well you should get a message telling you the tag is written. The index will also have autoincremented to the next value. This means you can immediately press Write again and write the next tag.</p>
+
+		<h2 id="troubleshooting">Troubleshooting</h2>
+		<p>Sometimes writing will fail. This will be indicated in the message and sometimes also a second error message shows up. This is normal and you just need to press the Write button again and try again. After some time you get the hang of it and most of the time you can just write tags fine.</p>
+	</body>
+</html>
