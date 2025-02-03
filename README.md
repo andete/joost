@@ -6,4 +6,4 @@
 
 ## iOS apps
 
-* [Sequential NFC]([apple/seqnfc.html](https://damad.be/joost/apple/seqnfc.html))
+* [Sequential NFC](https://damad.be/joost/apple/seqnfc.html)
