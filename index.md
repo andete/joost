@@ -3,7 +3,7 @@
 ## personal
 
 * [github](https://github.com/andete)
-* [blog](https://damad.be/joost/blog.html)
+* [blog](blog.html)
 
 ## iOS apps
 
