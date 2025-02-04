@@ -2,10 +2,6 @@
 
 ## articles
 
-{% for post in site.posts %}
-* [{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}](/joost{{ post.url }})
-{% endfor %}
-
 {% for tag in site.tags %}
 ### {{ tag[0] }}
 {% for post in tag[1] %}
